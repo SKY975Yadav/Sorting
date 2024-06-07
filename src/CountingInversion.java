@@ -8,7 +8,7 @@ public class CountingInversion {
    Problem 7 :
        This video discusses the problem of taking an unsorted array and counting the inversions in it. There are two conditions for the  elements to be inverse:
        arr[i] > arr[j]
-       i <j
+       i < j
 
        simply no.of element that true for above condition
     */

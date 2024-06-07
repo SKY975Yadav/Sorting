@@ -42,7 +42,7 @@ public class MergeTwoSortedArraysWithoutExtraSpace {
 
     private static void swapArrayElements(long [] arr1, long [] arr2, int ind1,int ind2){
 
-        if(arr1[ind1] > arr2[ind2]){ //swaping elements
+        if(arr1[ind1] > arr2[ind2]){ //swapping elements
             long temp = arr1[ind1];
             arr1[ind1] = arr2[ind2];
             arr2[ind2 ] = temp;
